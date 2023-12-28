@@ -1,0 +1,133 @@
+body{
+  display: flex;
+  height: 90vh;
+  background-image: url('../assets/Dojo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0e9ac7;
+}
+.Logo{
+  position: absolute;
+  top: -1rem;
+  left: 28rem;
+  width: 34.5rem;
+  height: 17.8rem;
+  flex-shrink: 0;
+}
+.sensei{
+  position: absolute;
+  right: 3rem;
+  bottom: 0rem;
+  width: 23.625rem;
+  height: 43.5625rem;
+  flex-shrink: 0;
+}
+.cards{
+  position:absolute;
+  left: 3rem;
+  bottom: 1rem;
+  width: 19.125rem;
+  height: 14.5625rem;
+  flex-shrink: 0;
+}
+.container {
+  position: absolute;
+  left: 35.2rem;
+  top: 17rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  width:  21.2rem;
+  height: 21.4rem;
+  border: solid 0.8vh #265797;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #03b0dc -0%, #1065d5 99.99%, rgba(16, 101, 213, 0) 100%);
+  border-radius: 4.6vh;
+}
+.container .penguin-name{
+  position: absolute;
+  top: 0.7rem;
+  left: 2.4rem;
+  color: #ffffff;
+  font-family: Burbank Small;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .pname-fill {
+  width: 16rem;
+  height: 2.3rem;
+  flex-shrink: 0;
+  position: absolute;
+  top: 3.5rem;
+  border: solid 0.3vh #000000;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  border-radius: 1.5vh;
+}
+.container .password{
+  position: absolute;
+  top: 0.7rem;
+  left: 2.4rem;
+  top: 6rem;
+  color: #ffffff;
+  font-family: Burbank Small;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .password-fill {
+  width: 16rem;
+  height: 2.3rem;
+  flex-shrink: 0;
+  position: absolute;
+  top: 8.7rem;
+  border: solid 0.3vh #000000;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  border-radius: 1.5vh;
+}
+.container .button-sing-in{
+  display: inline-block;
+  width: 7rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  position: absolute;
+  top: 11.7rem;
+  border-radius: 1.0625rem;
+  border: 1px solid #000;
+  background: linear-gradient(180deg, #037adc 0%, #0F5EC8 100%);
+  color: #FFF;
+  font-family: Burbank Small;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+button-sing-in:hover{
+  background: linear-gradient(180deg, #000000 0%,, #0F5EC8 100%);
+}
+
+.container .dont-have-an-account{
+  position: absolute;
+  top: 15rem;
+  color: #FFF;
+  font-family: Burbank Small;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .forgot-your-password{
+  position: absolute;
+  top: 17rem;
+  color: #FFF;
+  font-family: Burbank Small;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
